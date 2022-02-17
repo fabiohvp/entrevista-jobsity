@@ -4,4 +4,4 @@ More information on [Challenge.pdf](https://raw.githubusercontent.com/fabiohvp/e
 
 ## Run
 
-rename .env.development to .env and change the API value
+replace REACT_APP_OPEN_WEATHER_KEY in .env file with a free openweather key
