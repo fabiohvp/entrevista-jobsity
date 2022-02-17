@@ -1,7 +1,7 @@
 import { randomBetween } from "../shared/Math";
 import * as actionTypes from "./actionTypes";
 
-const API_KEY = process.env.REACT_APP_OPEN_WEATHER_API;
+const API_KEY = process.env.REACT_APP_OPEN_WEATHER_KEY;
 const API_URL = process.env.REACT_APP_OPEN_WEATHER_URL;
 const API_ICON = process.env.REACT_APP_OPEN_WEATHER_ICON;
 
