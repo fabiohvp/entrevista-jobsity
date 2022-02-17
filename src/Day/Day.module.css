@@ -1,0 +1,75 @@
+.day {
+  border: 0.5px solid #999;
+  position: relative;
+  height: 8rem;
+  cursor: pointer;
+}
+
+.number {
+  margin-left: 0.5rem;
+  font-weight: bold;
+  font-size: 0.75rem;
+  height: 16px;
+}
+
+.disabled * {
+  opacity: 0.75;
+}
+
+.disabled > .number {
+  color: #999;
+}
+
+.day:nth-child(7n),
+.day:nth-child(7n + 1) {
+  background-color: #eee;
+  color: #2563eb;
+}
+
+.container {
+  overflow-y: auto;
+  height: calc(100% - 16px);
+}
+
+.items {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 0.3rem;
+}
+
+.item {
+  padding: 0.5rem;
+  width: 90%;
+  margin-left: 5%;
+  line-height: 1rem;
+  background-color: #eee;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 3px;
+}
+
+.itemContainer {
+  position: relative;
+}
+
+.body {
+  word-break: break-all;
+}
+
+.left {
+  text-align: center;
+}
+
+.time {
+  margin-top: -7px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.remove {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  opacity: 0.75;
+}
